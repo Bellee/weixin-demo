@@ -1,0 +1,19 @@
+@import "../movies-list/movies-list-template.wxss";
+
+.movies-container{
+  display: flex;
+  flex-direction: column;
+ padding: 0 22rpx;
+}
+.movies-img{
+  width: 200rpx;
+  padding-bottom: 20rpx;
+  height: 260rpx;
+}
+.movies-title{
+  margin-bottom:16rpx;
+  font-size: 24rpx;
+}
+
+
+ 

@@ -1,0 +1,13 @@
+<template name="vol-template">
+  <image src="{{moviesitem.coverageUrl}}" mode="aspectFill"></image>
+      <view class="vol-meta">
+        <text class="vol-number">豆瓣评分：{{moviesitem.average}}</text>
+        <text class="vol-author">{{moviesitem.title}}</text>
+      </view>
+      <view class="vol-content">
+        <text class="vol-content-text">{{moviesitem.summary}}</text> 
+      </view>
+      <view class="vol-makettime">
+        <text class="vol-makettime-text">发表日期：{{moviesitem.year}}</text>
+      </view>
+</template> 

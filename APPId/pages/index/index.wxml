@@ -1,0 +1,11 @@
+<view class="containers">
+  <swiper class="vol-swiper"  >
+  <block class="music-content" wx:for="{{movies}}" wx:for-item="moviesitem">
+    <swiper-item  class="vol-swipre-item">
+      <import src="vol/vol-template.wxml"/>
+      <template is="vol-template" data="{{moviesitem}}"/>
+    </swiper-item>
+  </block>
+    <swiper-item></swiper-item>
+  </swiper>
+</view>

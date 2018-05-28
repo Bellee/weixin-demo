@@ -1,0 +1,151 @@
+/* pages/music/music.wxss */
+.containers{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-pannel{
+  position: absolute;
+  top: 80rpx;
+}
+
+.search{
+  background-color: #f2f2f2;
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.search input{
+  height: 100%;
+  width: 600rpx;
+  margin-left: 20px;
+  font-size: 28rpx;
+}
+
+.search-img{
+  margin:auto 0 auto 20rpx;
+}
+
+.placehoder{
+   font-size: 14px;
+   color: #d1d1d1;
+   margin-left: 20rpx;
+}
+.xx-img{
+  height: 30rpx;
+  width:30rpx;
+  margin: auto 0 auto 10rpx;
+}
+
+ text{
+  font-family: MicroSoft Yahei;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.music-swiper{
+  height: 1000rpx;
+  padding-top: 10rpx;
+   display: flex;
+  flex-direction: column;
+}
+
+.head-imagesha{
+   position: absolute;
+   height: 600rpx;
+   width: 100%;
+   -webkit-filter:blur(20px);
+   z-index: -1;
+}
+
+ .head-image{
+   padding-left: 50rpx;
+   padding-top: 60rpx;
+   height: 400rpx;
+   width: 300rpx;
+ }
+ 
+
+ .author-data{
+   flex-direction: row;
+   margin-left: 20rpx;
+   margin-top: 160rpx;
+ }
+
+ .avatar{
+   height: 64rpx;
+   width: 84rpx;
+   vertical-align: middle;
+ }
+
+ .author{
+   font-size: 30rpx;
+   font-weight: 300;
+   margin-left: 20rpx;
+   vertical-align: middle;
+   color: #666;
+ }
+
+ .publish{
+   font-size:24rpx;
+   color: #999;
+   margin-left: 20rpx;
+ }
+
+ .price{
+   font-size: 24rpx;
+   margin-left: 30rpx;
+   vertical-align: middle;
+   color: #999;
+ }
+
+ .title{
+   margin-left: 40rpx;
+   font-size: 36rpx;
+   font-weight: 700;
+   margin-top: 30rpx;
+   letter-spacing: 2px;
+   color: #4b556c;
+ }
+
+ .tool{
+   margin-top: 30rpx;
+ }
+
+ .circle-img{
+   float: right;
+   margin-right: 40rpx;
+   vertical-align:middle;
+ }
+
+ .circle-img image{
+   width: 90rpx;
+   height: 90rpx;
+ }
+
+ .share-img{
+   margin-left: 30rpx;
+ }
+
+ .horizon{
+   width: 660rpx;
+   height: 1px;
+   background-color: #e5e5e5;
+   vertical-align: middle;
+   position: relative;
+   top: 46rpx;
+   margin: 0 auto;
+   z-index:-99;
+ }
+ .detail{
+   color:#666;
+   margin-left: 30rpx;
+   margin-top: 20rpx;
+   margin-right: 30rpx;
+   line-height: 44rpx;
+   letter-spacing: 2px;
+   font-size: 24rpx;
+ }

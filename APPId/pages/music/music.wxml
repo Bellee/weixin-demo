@@ -1,0 +1,30 @@
+<view class='containers'>
+  <view class="search">
+   <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+   <input type="text" placeholder="fffff" placeholder-class='placehoder' bindfocus="onBindFocus" bindchange="onBindChange"/>
+   <image src="/images/icon/arrow.png" class="xx-img" bindtap="onCancelImgTap"></image>
+  </view>
+   
+<swiper class="music-swiper"  >
+  <block class="music-content" wx:for="{{dbMusic}}" wx:for-item="dbMusicitem">
+    <swiper-item>
+    <image class="head-imagesha" src="{{dbMusicitem.pic}}" mode="aspectFill"></image>
+    <image class="head-image" src="{{dbMusicitem.pic}}" mode="aspectFill"></image>
+    <view class="author-data">
+      <text class="author">{{dbMusicitem.author}}</text>
+      <text class="publish">{{dbMusicitem.publishtime}}</text>
+      <text class="price">{{dbMusicitem.language}}</text>
+    </view>
+    <text class="title">{{dbMusicitem.title}}</text>
+    <view class="tool">
+      <view class="circle-img">
+       <image src="../../../images/icon/book.jpg"></image>
+       <image class="share-img" src="../../../images/icon/home.jpg"></image>
+    </view>
+    <view class="horizon"></view>
+    </view>
+     <text class="detail">{{dbBooks[0].summary}}</text>
+    </swiper-item>
+    </block>
+  </swiper>
+</view>

@@ -1,0 +1,18 @@
+<view class="read-container">
+  <swiper class="read-swiper" indicator-dots="true" autoplay="true" interval="3000">
+   <block wx:for="{{dbBooks}}" wx:for-item="dbBook">
+    <swiper-item class="read-swiper-item" >
+      <image src="{{dbBook.image}}"/>
+    </swiper-item>
+   </block>
+  </swiper>
+
+  <view class="reads-container">
+     <view class="reads-content" wx:for="{{dbBooks}}" wx:for-item="dbBook">
+       <text class="reads-text">{{dbBook.summary}}</text>
+        
+       <text class="reads-look" catchtap="onLookTap" data-bookid="{{dbBook.bookId}}">查看</text>
+       
+     </view>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+@import "../stars/stars-template.wxss";
+
+.movies-list-container{
+  background-color:#fff;
+  display: flex;
+  flex-direction: column;
+}
+.inner-container{
+  margin: 0 auto 20rpx;
+}
+
+.movies-head{
+  padding: 30rpx 20rpx 22rpx;
+  /*display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+*/
+}
+
+.slogan{
+  font-size:24rpx;
+}
+
+.more{
+  float:right;
+}
+
+.more-text{
+ vertical-align: middle;
+  margin-right: 10rpx;
+  color: #1f4ba5;
+  font-size: 24rpx;
+}
+
+.more-img{
+  width: 20rpx;
+  height: 20rpx;
+  vertical-align: middle;
+}
+
+.movie-container{
+  display: flex;
+  flex-direction: row;
+}
+
+ text{
+  font-family: MicroSoft Yahei;
+  font-size: 24rpx;
+  color: #666;
+} 
